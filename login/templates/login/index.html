@@ -1,0 +1,13 @@
+{% extends 'login/base_login.html' %}
+
+{% block login_form %}
+    <form class="login">
+        <fieldset class="login_fieldset">
+            <input class="login_input" id="id_username_field" name="username" autofocus="" required="" type="text" placeholder="Login"><br />
+            <input class="login_input" id="id_password_field" name="password" required="" type="password" placeholder="Password">
+        </fieldset>
+        <fieldset class="login_fieldset">
+            <input id="id_login_button" type="submit" value="Send">
+        </fieldset>
+    </form>
+{% endblock %}

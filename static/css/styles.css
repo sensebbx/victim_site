@@ -1,0 +1,27 @@
+
+/*Login form styles*/
+
+.login{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.login_fieldset{
+    text-align: center;
+    border: none;
+    margin-inside: 0 0;
+}
+
+.login_input{
+    width: 250px;
+    margin: 0 0 8px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#id_login_button{
+    font-family: 'Open Sans', sans-serif;
+    width: 100px;
+    height: 25px;
+}
+
+/*End of login form styles*/
